@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="227995" started-at="2020-12-17T18:05:14Z" finished-at="2020-12-17T18:09:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="227995" started-at="2020-12-17T18:05:14Z" finished-at="2020-12-17T18:09:02Z">
+      <class name="org.test.SnapDeal">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.test.SnapDeal@18355a8]" name="launchBrowser" is-config="true" duration-ms="9140" started-at="2020-12-17T23:35:14Z" finished-at="2020-12-17T23:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.SnapDeal@18355a8]" name="tc1" duration-ms="12009" started-at="2020-12-17T23:35:23Z" data-provider="Input Data" finished-at="2020-12-17T23:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.SnapDeal@18355a8]" name="tc1" duration-ms="87087" started-at="2020-12-17T23:35:36Z" data-provider="Input Data" finished-at="2020-12-17T23:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.SnapDeal@18355a8]" name="tc1" duration-ms="32287" started-at="2020-12-17T23:37:03Z" data-provider="Input Data" finished-at="2020-12-17T23:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.SnapDeal@18355a8]" name="tc1" duration-ms="34849" started-at="2020-12-17T23:37:35Z" data-provider="Input Data" finished-at="2020-12-17T23:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[air conditioner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.SnapDeal@18355a8]" name="tc1" duration-ms="52261" started-at="2020-12-17T23:38:10Z" data-provider="Input Data" finished-at="2020-12-17T23:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smart watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.test.SnapDeal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
